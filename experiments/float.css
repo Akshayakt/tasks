@@ -48,3 +48,11 @@ clear:left;
     float: right;
     clear: both;
 }
+.float:not(:last-child){
+    color: #F00;
+    border: 3px solid #639;
+    background-color: #F5F5DC;
+    float: left;
+    margin-right: 6px;
+    display: inline-block;
+}

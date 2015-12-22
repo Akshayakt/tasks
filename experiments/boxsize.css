@@ -1,0 +1,14 @@
+#container{    
+		border: 2px solid #639;
+    	margin: 7px;
+    	background: none repeat scroll 0% 0% #808080;
+    	width: 50px;
+    	padding: 30px;
+    	/*position: relative;*/
+    }
+.img{
+	float: left;
+}
+.exit{
+	float: right;
+}
