@@ -84,3 +84,15 @@
     display: inline-block;
     border: 1px black;
 }
+
+.message_display {
+    background: white;
+    overflow: scroll;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    width: 200px;
+    border: 1px #3B21E5;
+    margin: 1px;
+    height: 233px;
+}
