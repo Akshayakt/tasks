@@ -3,32 +3,47 @@
     padding: 0px;
     position: relative;
 }
-
-.chat_list {
+.chat_head{
     position: fixed;
     top: 0px;
     right: 0px;
-    width: 197px;
-    border: 1px none #000;
-    padding: 1px;
-    bottom: 0px;
-    background: none repeat scroll 0% 0% grey;
-    list-style-type: none;
+    width: 199px;
+    height: 29px;
+    background: none repeat scroll 0% 0% white;
+    border: 1px solid black;
 }
-
-.chat_list_head {
-    position: relative;
-    background: none repeat scroll 0% 0% black;
+.head{
+    padding: 7px;
+    font-size: 14px;
+    position: absolute;
     top: 0px;
     right: 0px;
-    padding: 3px;
-    margin: 1px;
-    border: 1px #3B21E5;
+    left: 60px;
 }
+.chat_list {
+    position: fixed;
+    top: 13px;
+    right: 0px;
+    width: 197px;
+    border: 1px solid #000;
+    padding: 1px;
+    bottom: 0px;
+    background: white;
+    list-style-type: none;
+    }
+.chat_list_head {
+    position: relative;
+    background: none repeat scroll 0% 0% #FFF;
+    top: 0px;
+    right: 1px;
+    padding: 0px;
+    border-bottom: 1px solid black;
+}
+
 
 .img {
     float: left;
-    color: white;
+    color: black;
 }
 
 .exit {
@@ -37,7 +52,7 @@
 }
 
 .chat_name {
-    color: white;
+    color: black;
     margin-left: 43px;
     border: 1px white;
 }
@@ -46,53 +61,51 @@
     top: 384px;
     right: 192px;
     width: 200px;
-    border: 1px none #000;
     padding: 1px;
     bottom: 0px;
-    background: grey;
     position: absolute;
-    height: 272px;
+    height: 276px;
+    border: 1px solid black;
 }
 
 .chat_box_head {
     position: absolute;
-    background: black;
+    background: none repeat scroll 0% 0% #FFF;
     right: 0px;
-    margin: 1px;
-    width: 200px;
-    border: 1px #3B21E5;
+    margin: 0px;
+    width: 202px;
     top: 0px;
+    border-bottom: 1px solid black;
 }
 
 .chat_footer {
     position: absolute;
-    background: grey;
+    background: none repeat scroll 0% 0% #FFF;
     right: 0px;
-    margin: 1px;
     width: 201px;
-    border: 1px #3B21E5;
-    top: 252px;
+    top: 253px;
     bottom: 0px;
+    left: 0px;
+    margin: 1px;
 }
-
 .text_box {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     margin-left: 13px;
     display: inline-block;
-    border: 1px black;
+    border: 1px none #000;
+    top: 0px;
 }
 
 .message_display {
-    background: white;
-    overflow: scroll;
-    position: absolute;
-    top: 18px;
-    right: 0px;
-    width: 200px;
-    border: 1px #3B21E5;
-    margin: 1px;
-    height: 233px;
+        background: none repeat scroll 0% 0% #FFF;
+        overflow: auto;
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        width: 200px;
+        margin: 1px;
+        height: 233px;
 }
