@@ -5,20 +5,23 @@
     border: 2px solid #639;
     margin: 7px;
     background: none repeat scroll 0% 0% #808080;
-    width: 3%;
+    width:24%;
     position: relative;
 }
 .second-div{
-	padding: 1px;
-    border: 2px solid rgb(102, 51, 153);
+	border: 2px solid #639;
     margin: 7px;
-    background: white;
-}
+    background: none repeat scroll 0% 0% #FFF;
+    top: 0px;
+    position: absolute;
+    left: 0px;
 }
 .third-div{
 	padding: 1px;
     border: 2px solid rgb(102, 51, 153);
     margin: 7px;
-    background: grey;
-}	
+    background: grey;	
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
