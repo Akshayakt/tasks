@@ -139,6 +139,14 @@
     z-index: 3;
 }
 
+#foot_menu {
+    float: left;
+    cursor: pointer;
+    margin-left: 27px;
+    margin-top: 12px;
+    margin-right: 67px;
+}
+
 #foot_home {
     float: left;
     cursor: pointer;

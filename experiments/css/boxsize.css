@@ -1,14 +1,45 @@
-#container{    
-		border: 2px solid #639;
-    	margin: 7px;
-    	background: none repeat scroll 0% 0% #808080;
-    	width: 50px;
-    	padding: 30px;
-    	/*position: relative;*/
-    }
-.img{
-	float: left;
+#container {
+    position: relative;
+    background: grey;
+    margin: 10px;
 }
-.exit{
-	float: right;
+
+#main_head {
+    position: absolute;
+    top: 18px;
+    right: 101px;
+    left: 0;
+    height: 122px;
+    width: 100%;
+    background: grey;
+    margin-left: 20px;
+}
+
+.img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 1px;
+}
+
+.content{
+	float: left;
+    margin-left: 26px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.content p{
+	display: inline;
+}
+
+.close {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 1px;
 }
