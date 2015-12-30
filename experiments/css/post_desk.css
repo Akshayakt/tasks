@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.prof_pic {
+    overflow: auto;
+}
+
+.post_block {
+    position: relative;
+    margin: 10% auto;
+    box-shadow: 0px 0px 12px rgba(57, 70, 78, 0.45);
+    width: 490px;
+    padding: 20px 12px;
+}
+
+.prof_pic img {
+    float: left;
+    height: 44px;
+    width: 44px;
+}
+
+.user_name {
+    color: rgba(0, 46, 243, 0.92);
+    cursor: pointer;
+}
+
+.timing {
+    color: gray;
+    float: left;
+    margin-left: -57px;
+    font-size: 13px;
+    margin-top: 28px;
+}
+
+.post_content {
+    padding-left: 65px;
+}
+
+.post_content p {
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.post_content span a {
+    color: blue;
+    text-decoration: none;
+}
+
+.post_content span {
+    font-size: 11px;
+}
+
+.small {
+    font-size: 11px;
+}
+
+.post_content span a:hover {
+    color: rgba(0, 120, 255, 0.92);
+}
+
+.time {
+    color: grey;
+    margin-left: 2px;
+}
+
+.comment {
+    margin-left: 5px;
+}
+
+.share {
+    margin-left: 5px;
+}
+
+.comments_body {
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.likenum {
+    color: rgba(0, 46, 243, 0.92);
+}
+
+.likenum span {
+    color: black;
+}
+
+.friends_comments {
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.friend_name {
+    color: rgba(0, 46, 243, 0.92);
+    float: left;
+    margin-left: 9px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.comment_time {
+    display: block;
+    width: 316px;
+    margin-left: 9px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.friends_comments img {
+    float: left;
+    height: 33px;
+    width: 33px;
+}
+
+.comment_content {
+    margin-left: 5px;
+}
+
+.comment_input {
+    margin-top: 10px;
+}
+
+.comment_input input {
+    height: 30px;
+    border: 1px solid #999;
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.span_comment {
+    float: left;
+}
