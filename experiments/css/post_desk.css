@@ -47,6 +47,7 @@ a {
     font-style: italic;
     text-align: justify;
     margin-top: 5px;
+    line-height: 17px;
 }
 
 .post_content span a {
@@ -138,4 +139,16 @@ a {
 
 .span_comment {
     float: left;
+}
+a.morelink {
+    text-decoration:none;
+    outline: none;
+}
+.morecontent span {
+    display: none;
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 17px;
 }
