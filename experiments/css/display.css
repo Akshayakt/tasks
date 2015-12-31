@@ -1,0 +1,43 @@
+#container{
+    width: 365px;
+    padding: 46px;
+    margin: 59px;
+    border: 13px solid #639;
+}
+#fir{
+	font-weight: bold;
+	color:hotpink;
+    background-color:steelblue;
+    display: block;
+}
+#sec{
+	font-weight: bold;
+	color:hotpink;
+    background-color:steelblue;
+    display: inline;
+}
+.first{
+	color: red;
+	background-color: white; 
+	font-size: 20px;
+	display: block;
+}
+.second{
+	color: red;
+	background-color: white; 
+	font-size: 20px;
+	display: inline;
+}
+.para1{
+	font-size: 20px;
+	color: orange;
+	background-color:grey; 
+	display: block;
+	margin-left: 124px;
+}
+.para2{
+	font-size: 15px;
+	color: orange;
+	background-color:grey; 
+	display: inline;
+}
